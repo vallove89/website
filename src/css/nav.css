@@ -1,0 +1,174 @@
+header {
+  
+}
+
+.standard-nav {
+  background-color:  #1D2228;
+}
+
+.landing-nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("../../images/ranch.webp");
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* NAVBAR STYLING STARTS */
+.top {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #E1E2E2;
+    
+}
+  
+  .scrolled {
+    background-color: #1D2228;
+  }
+
+  .nav-links {
+    margin: auto 3rem;
+  }
+  
+  .nav-links a {
+    color: #E1E2E2;
+    text-decoration: none;
+    transition: text-decoration 1s;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-links a:active {
+    color: #E1E2E2;
+  }
+  /* LOGO */
+  .logo {
+    font-size: 32px;
+    margin: auto 2rem;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li:hover {
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  /* RESPONSIVE NAVBAR MENU STARTS *
+  /* CHECKBOX HACK */
+  
+  input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .action {
+    margin: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FB8122;
+    border: solid 3px #FB8122;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .action-item {
+    margin: 1rem auto;
+  }
+  
+  @keyframes pulse {
+    0% {
+      border-width: 1px;
+    }
+    50% {
+      border-width: 5px;
+    }
+    100% {
+      border-width: 1px;
+    }
+  }
+  
+  /* APPLYING MEDIA QUERIES */
+  @media (max-width: 768px) {
+    .menu {
+      display:none;
+      position: absolute;
+      background-color: #1D2228;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+  
+    .menu li:hover {
+      display: inline-block;
+      background-color: #1D2228;
+      transition: 0.3s ease;
+    }
+  
+    .menu li + li {
+      margin-top: 12px;
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+
+    .nav-links {
+      margin: auto 2rem;
+    }
+
+    .hero {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hero-item {
+      margin: 1rem auto;
+    }
+  }
+  

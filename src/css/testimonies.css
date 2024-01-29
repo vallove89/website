@@ -1,0 +1,27 @@
+.name {
+    margin: 1rem auto;
+    font-size: small;
+}
+
+.name span {
+    font-style: italic;
+}
+
+
+.testimony {
+    flex: 1;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.testimonies {
+    margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+    .testimonies {
+        display: flex;
+        flex-direction: row;
+    }
+}

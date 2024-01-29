@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #E1E2E2;
+}
+
+main {
+    margin: auto;
+    max-width: 1200px;
+    color: #1D2228;
+    min-height: 100vh;
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+h2 {
+    line-height: 3;
+}
+
+p {
+    margin: auto;
+    line-height: 1.5;
+}
+
+.frame {
+    aspect-ratio: 1/1;
+    background: transparent no-repeat center;
+    background-size: cover;
+    max-width: 60%;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width:  30rem;
+}
+
+.wrapper {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.page-tittle {
+    align-self: center;
+}
+
+.d-list {
+    margin: auto 2rem;
+    list-style: lower-alpha;
+}
+
+.d-list li {
+    margin: 0.5rem auto;
+}
+
+.flex-reverse-row {
+    flex-direction: row-reverse;
+}
+
+.flex-item {
+    width: 100%;
+    padding: 1rem;
+}
+
+.action {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 700px) {
+    .flex-row, .flex-reverse-row {
+        display: flex;
+        justify-content: center;
+    }
+    .frame {
+        width: 30%;
+    }
+
+}
