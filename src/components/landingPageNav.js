@@ -26,22 +26,22 @@ navTemplate.innerHTML = `
                     </a>
                 </li>
                 <li>
-                    <a href="/donate.html">
+                    <a href="https://vallove89.github.io/website/donate.html">
                         Dontate
                     </a>
                 </li>
                 <li>
-                    <a href="/gallery.html">
+                    <a href="https://vallove89.github.io/website/gallery.html">
                         Gallery
                     </a>
                 </li>
                 <li>
-                    <a href="/about.html">
+                    <a href="https://vallove89.github.io/website/about.html">
                         About Us
                     </a>
                 </li>
                 <li>
-                    <a href="/contact.html">
+                    <a href="https://vallove89.github.io/website/contact.html">
                         Contact
                     </a>
                 </li>
