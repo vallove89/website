@@ -21,7 +21,7 @@ navTemplate.innerHTML = `
               <div class="menu">
         
                 <li>
-                    <a href="/">
+                    <a href="/https://vallove89.github.io/website/">
                         Home
                     </a>
                 </li>

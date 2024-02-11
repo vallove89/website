@@ -4,6 +4,7 @@ navTemplate.innerHTML = `
     @import "./src/css/nav.css";
 </style>
 <header class=landing-nav>
+        <div class="overlay"></div>
         <nav class="navbar top">
             <!-- LOGO -->
             <div class="logo">
@@ -21,7 +22,7 @@ navTemplate.innerHTML = `
                 <div class="menu">
     
                 <li>
-                    <a href="/" class="current" >
+                    <a href="https://vallove89.github.io/website/" class="current" >
                         Home
                     </a>
                 </li>
@@ -48,11 +49,10 @@ navTemplate.innerHTML = `
                 </div>
             </ul>
         </nav>
-        <div class="hero">
-            <div class="action">
-                <h2 class="action-item">Support Our Veterans</h2>
-                <a class="action-item"><span>Donate Today</span></a>
-            </div>
+        <div class="action">
+            <h2>Make a Differences Today!</h2>
+            <p>Support our mission for accessible hunting experiences by donating today.</p>
+                    <a href="/https://vallove89.github.io/website/donate.html">Click here to visit our donation page!</a>
         </div>
     </header>
 `;
